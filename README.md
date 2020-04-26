@@ -6,7 +6,8 @@ bastion_IP = 35.195.203.112
 someinternalhost_IP = 10.132.0.4
 
 ssh config:<br/>
-```Host bastion
+```
+Host bastion
   HostName 35.195.203.112
     IdentityFile ~/.ssh/appuser
     User appuser
